@@ -94,13 +94,6 @@
 		  	<h3>medicamentos</h3>
 		  	</div>
 		  	</div>
-			<?php
-				// Conectando, seleccionando la base de datos
-				$link = mysql_connect('localhost', 'eusa15', 'eusa15')
-					or die('No se pudo conectar: ' . mysql_error());
-				echo 'Connected successfully';
-				mysql_select_db('_bdphp') or die('No se pudo seleccionar la base de datos');
-			?>
 		  	<div class="content">
 		  	<div class="contact-text">
 		  	<div class="container">
@@ -109,30 +102,29 @@
 					<tr>
 						<th>Nombre</th>
 						<th>Descripción</th>
-						<?php
-						// Realizar una consulta MySQL
-						$query = 'SELECT NOMBRE,DESCRIPCION FROM MEDICAMENTOS
-									WHERE ID_MEDICAMENTOS IN ';
-						$result = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
-
-						// Imprimir los resultados en HTML
-						echo "<table>\n";
-						while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
-							echo "\t<tr>\n";
-							foreach ($line as $col_value) {
-								echo "\t\t<td>$col_value</td>\n";
-							}
-							echo "\t</tr>\n";
-						}
-						echo "</table>\n";
-
-						// Liberar resultados
-						mysql_free_result($result);
-
-						// Cerrar la conexión
-						mysql_close($link);
-					?>
 					</tr>
+					<?php
+					// Conectando, seleccionando la base de datos
+					$link = mysql_connect('localhost', 'eusa15', 'eusa15')
+					or die('No se pudo conectar: ' . mysql_error());
+					mysql_select_db('eusa15_bdphp') or die('No se pudo seleccionar la base de datos');
+					//$iddiagnostico = $_POST["diagnostico"];	
+					$query = "SELECT MEDICAMENTOS.NOMBRE AS nombre, MEDICAMENTOS.DESCRIPCION AS descripcion FROM MEDICAMENTOS WHERE MEDICAMENTOS.ID_MEDICAMENTO IN (SELECT RECETAS.ID_MEDICAMENTO FROM RECETAS WHERE RECETAS.ID_DIAGNOSTICO = 1) AND MEDICAMENTOS.TIPO = 'Automedicación'";
+					$result = $link->query($query);
+
+					while ($row = $result-> fetch_assoc()) {
+						echo "<tr>";
+						echo "<td>".$row["nombre"]."</td>";
+						echo "<td>".$row["descripcion"]."</td>";
+						echo "</tr>";
+					}
+					
+
+					// Liberar resultados
+					mysql_free_result($result);
+					mysql_close($link);
+
+				?>
 				</table>
 				<br/>
 				<br/>
@@ -141,8 +133,32 @@
 					<tr>
 						<th>Nombre</th>
 						<th>Descripción</th>
-						<!--INSERTAR PHP-->
 					</tr>
+					<?php
+				// Conectando, seleccionando la base de datos
+				$link = mysql_connect('localhost', 'eusa15', 'eusa15')
+					or die('No se pudo conectar: ' . mysql_error());
+				mysql_select_db('eusa15_bdphp') or die('No se pudo seleccionar la base de datos');
+					//$iddiagnostico = $_POST["diagnostico"];	
+					$query = 'SELECT NOMBRE,DESCRIPCION FROM MEDICAMENTOS
+								WHERE ID_MEDICAMENTO IN (SELECT ID_MEDICAMENTO FROM RECETAS
+																WHERE ID_DIAGNOSTICO = 1)';
+					$result1 = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
+					while ($line1 = mysql_fetch_array($result1, MYSQL_ASSOC)) {
+						echo "<tr>\n";
+						foreach ($line1 as $col_value1) {
+							echo "<td>$col_value1</td>\n";
+						}
+						echo "</tr>\n";
+					}
+					
+
+					// Liberar resultados
+					mysql_free_result($result1);
+
+					// Cerrar la conexión
+					mysql_close($link);
+					?>
 				</table>
 			 </div>
                </div>
