@@ -1,0 +1,293 @@
+/*Teresa Rodriguez Perez*/
+
+.opacity img {
+filter:alpha(opacity=100);
+-moz-opacity: 1.0;
+opacity: 1.0;}
+
+.opacity:hover img {
+filter:alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+}
+
+/*Hombre Delante*/
+#a4 {
+	position: absolute;
+	left: 146px;
+	top: 357px;
+	z-index: 1;
+	height: 121px;
+	width: 157px;
+}
+#a3 {
+	position: absolute;
+	left: 151px;
+	top: 262px;
+	z-index: 1;
+}
+#a1 {
+	position: absolute;
+	left: 179px;
+	top: 132px;
+	z-index: 1;
+}
+#a12 {
+	position: absolute;
+	left: 296px;
+	top: 372px;
+	z-index: 2;
+}
+#a9 {
+	position: absolute;
+	left: 76px;
+	top: 392px;
+	z-index: 2;
+}
+#a7 {
+	position: absolute;
+	left: 283px;
+	top: 253px;
+	z-index: 2;
+}
+#a6 {
+	position: absolute;
+	left: 108px;
+	top: 255px;
+	z-index: 1;
+}
+#a11 {
+	position: absolute;
+	left: 287px;
+	top: 318px;
+	z-index: 1;
+}
+#a8 {
+	position: absolute;
+	left: 100px;
+	top: 311px;
+	z-index: 1;
+}
+#a2 {
+	position: absolute;
+	left: 160px;
+	top: 224px;
+	z-index: 1;
+}
+#a5 {
+	position: absolute;
+	left: 131px;
+	top: 467px;
+	z-index: 1;
+	width: 187px;
+}
+#a10 {
+	position: absolute;
+	left: 53px;
+	top: 492px;
+	z-index: 1;
+}
+#a13 {
+	position: absolute;
+	left: 332px;
+	top: 481px;
+	z-index: 1;
+	height: 89px;
+}
+#a14 {
+	position: absolute;
+	left: 137px;
+	top: 574px;
+	z-index: 1;
+	width: 90px;
+}
+#a18 {
+	position: absolute;
+	left: 220px;
+	top: 570px;
+	z-index: 1;
+	width: 103px;
+}
+#a19 {
+	position: absolute;
+	left: 234px;
+	top: 651px;
+	z-index: 1;
+}
+#a15 {
+	position: absolute;
+	left: 143px;
+	top: 660px;
+	z-index: 1;
+}
+#a20 {
+	position: absolute;
+	left: 234px;
+	top: 699px;
+	z-index: 1;
+}
+#a16 {
+	position: absolute;
+	left: 144px;
+	top: 701px;
+	z-index: 1;
+}
+#a21 {
+	position: absolute;
+	left: 234px;
+	top: 843px;
+	z-index: 1;
+}
+#a17 {
+	position: absolute;
+	left: 141px;
+	top: 847px;
+	z-index: 1;
+}
+
+/*Hombre Detras*/
+#a25 {
+	position: absolute;
+	left: 677px;
+	top: 374px;
+	z-index: 2;
+	height: 112px;
+	width: 154px;
+}
+#a24 {
+	position: absolute;
+	left: 661px;
+	top: 238px;
+	z-index: 2;
+	height: 143px;
+	width: 178px;
+}
+#a22 {
+	position: absolute;
+	left: 673px;
+	top: 93px;
+	z-index: 2;
+	width: 129px;
+	height: 134px;
+}
+#a30 {
+	position: absolute;
+	left: 591px;
+	top: 399px;
+	z-index: 2;
+	width: 91px;
+}
+#a33 {
+	position: absolute;
+	left: 824px;
+	top: 385px;
+	z-index: 2;
+	height: 105px;
+	width: 89px;
+}
+#a27 {
+	position: absolute;
+	left: 627px;
+	top: 247px;
+	z-index: 2;
+	height: 66px;
+}
+#a28 {
+	position: absolute;
+	left: 829px;
+	top: 250px;
+	z-index: 1;
+	height: 60px;
+	width: 54px;
+}
+#a29 {
+	position: absolute;
+	left: 609px;
+	top: 307px;
+	z-index: 1;
+	width: 78px;
+	height: 99px;
+}
+#a32 {
+	position: absolute;
+	left: 818px;
+	top: 302px;
+	z-index: 1;
+	width: 76px;
+}
+#a23 {
+	position: absolute;
+	left: 705px;
+	top: 215px;
+	z-index: 2;
+	width: 113px;
+	height: 32px;
+}
+#a26 {
+	position: absolute;
+	left: 660px;
+	top: 479px;
+	z-index: 1;
+	width: 187px;
+}
+#a34 {
+	position: absolute;
+	left: 852px;
+	top: 478px;
+	z-index: 1;
+	width: 73px;
+}
+#a31 {
+	position: absolute;
+	left: 580px;
+	top: 497px;
+	z-index: 1;
+}
+#a35 {
+	position: absolute;
+	left: 659px;
+	top: 579px;
+	z-index: 1;
+	width: 96px;
+	height: 141px;
+}
+#a38 {
+	position: absolute;
+	left: 748px;
+	top: 573px;
+	z-index: 1;
+	width: 101px;
+	height: 145px;
+}
+#a36 {
+	position: absolute;
+	left: 663px;
+	top: 703px;
+	z-index: 1;
+	width: 93px;
+	height: 171px;
+}
+#a39 {
+	position: absolute;
+	left: 750px;
+	top: 714px;
+	z-index: 1;
+	height: 151px;
+	width: 88px;
+}
+#a37 {
+	position: absolute;
+	left: 663px;
+	top: 865px;
+	z-index: 2;
+	width: 88px;
+	height: 64px;
+}
+#a40 {
+	position: absolute;
+	left: 759px;
+	top: 853px;
+	z-index: 2;
+	width: 69px;
+	height: 69px;
+}
