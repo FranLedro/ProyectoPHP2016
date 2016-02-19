@@ -1,0 +1,607 @@
+/*Teresa Rodriguez Perez*/
+
+/*order ok: link,visited,hover,active*/
+A:link, A:visited, A:hover, A:active{color:#0000ff;}
+
+/*Hombre Delante*/
+/*Cabeza Delante*/
+#fa1
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Cuello Delante*/
+#fa2
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Torso Delante*/
+#fa3
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Barriga Delante*/
+#fa4
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Cadera Delante*/
+#fa5
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Hombro Delante*/
+#fa6
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Hombro Delante*/
+#fa7
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Brazo Delante*/
+#fa8
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Antebrazo Delante*/
+#fa9
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Mano Delante*/
+#fa10
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Brazo Delante*/
+#fa11
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Antebrazo Delante*/
+#fa12
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Mano Delante*/
+#fa13
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pierna Delante*/
+#fa14
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Rodilla Delante*/
+#fa15
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pierna Delante*/
+#fa16
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pie Delante*/
+#fa17
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pierna Delante*/
+#fa18
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Rodilla Delante*/
+#fa19
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pierna Delante*/
+#fa20
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pie Delante*/
+#fa21
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+
+/*Hombre Delante*/
+/*Cabeza Detras*/
+#fa22
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Cuello Detras*/
+#fa23
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Espalda Detras*/
+#fa24
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Espalda Detras*/
+#fa25
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Culo Detras*/
+#fa26
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Hombro Detras*/
+#fa27
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Hombro Detras*/
+#fa28
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Brazo Detras*/
+#fa29
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Antebrazo Detras*/
+#fa30
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Mano Detras*/
+#fa31
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Brazo Detras*/
+#fa32
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Antebrazo Detras*/
+#fa33
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Mano Detras*/
+#fa34
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pierna Detras*/
+#fa35
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pierna Detras*/
+#fa36
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pie Detras*/
+#fa37
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pierna Detras*/
+#fa38
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pierna Detras*/
+#fa39
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
+
+/*Pie Detras*/
+#fa40
+{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:1.2em;
+	padding-left: 2% !important;
+	padding-top: 1% !important;
+	padding-right: 1% !important;
+	border:6px solid #808080;
+	background-color:white;
+	z-index: 4;
+}
